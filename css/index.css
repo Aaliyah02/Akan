@@ -1,0 +1,69 @@
+body(
+    background-color: black
+    backgroud-image:url("../image/backgroud.jpg")
+    color: :- white;
+    font-family: Arial
+    font-size: 1.6em
+    line-height: 16px
+    margin: 0:
+)
+.container[
+    width: 99%
+    margin: Auto
+    Overflow: hidden;
+]
+#mainheader(
+    background-color: black;
+    width:100%
+    color:white;
+    text-align: center;
+)
+#navbar(
+    display:flex;
+    background-color: =00000;
+    color: white;
+)
+#navbar ol{
+    padding: 0;
+    list-style: none;
+}
+#navbar li{
+    height:22px;
+    display: inline;
+}
+img{
+    width: 100%;
+    heught: inline;
+}
+#sidebar{
+    float: left;
+    width: 30%;
+    background-color: black;
+    padding: 10px;
+    box-sizing: border-box;
+    image-resolution: 200;
+    background-image:url("../images/backgroud.jpg");
+}
+#rainblock{
+    float: right;
+    width: 70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+
+}
+#mainfooter{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 0%;
+}
+@media{
+    sidebar(
+        width: 100%;
+        float: none;
+        
+    )
+}
